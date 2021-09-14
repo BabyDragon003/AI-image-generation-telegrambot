@@ -1,3 +1,4 @@
+{
   "type": "module",
   "scripts": {
     "start": "node nenad_tg_bot.js"
