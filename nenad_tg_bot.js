@@ -3,6 +3,12 @@ import axios from 'axios'
 const require = createRequire(import.meta.url)
 const TelegramBot = require('node-telegram-bot-api')
 const dotenv = require('dotenv')
+
+const userMessageTime = new Map()
+
+dotenv.config()
+const token = process.env.TELEGRAM_BOT_TOKEN
+const bot = new TelegramBot(token, { polling: true })
 let lastMessageTime = 0
 async function createPrediction (text) {
   const response = await axios.post(
