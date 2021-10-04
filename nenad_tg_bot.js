@@ -1,4 +1,3 @@
-import { createRequire } from 'module'
 import axios from 'axios'
 const require = createRequire(import.meta.url)
 const TelegramBot = require('node-telegram-bot-api')
