@@ -1,3 +1,4 @@
+# Telegram DALL·E bot
 ![GitHub](https://img.shields.io/github/license/javitoro/telegram-dalle-bot) [![GitHub issues](https://img.shields.io/github/issues/JaviToro/telegram-dalle-bot)](https://github.com/JaviToro/telegram-dalle-bot/issues) [![GitHub forks](https://img.shields.io/github/forks/JaviToro/telegram-dalle-bot)](https://github.com/JaviToro/telegram-dalle-bot/network)
 
 ## Introduction
